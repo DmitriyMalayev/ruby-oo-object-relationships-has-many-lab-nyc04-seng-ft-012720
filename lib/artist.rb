@@ -6,8 +6,8 @@ def initialize(name)
   @songs = []
 end
 
-def self.songs
-  @@songs
+def songs
+  @songs
 end
 
 def self.add_song(song)
@@ -40,4 +40,4 @@ end
 # # # #     def add_song(song)
 # # # #     @songs << song
 # # # #     end
-# # # # end 
+# # # # end
