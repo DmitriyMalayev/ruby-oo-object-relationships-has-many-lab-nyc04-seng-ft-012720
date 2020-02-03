@@ -11,10 +11,6 @@ def self.songs
   @@songs
 end
 
-def self.songs=(name)
-  @name = name
-end
-
 def self.add_song(name)
   @name
 end
