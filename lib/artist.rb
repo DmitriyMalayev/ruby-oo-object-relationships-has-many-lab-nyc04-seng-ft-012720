@@ -11,11 +11,11 @@ def add_song(song)
   song.artist = self
 end
 
-def add_song_by_name(name)
+def self.add_song_by_name(name)
   @name
 end
 
-def add_song_by_name=(name)
+def self.add_song_by_name=(name)
   @name = name
 end
 
