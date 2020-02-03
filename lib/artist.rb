@@ -15,7 +15,14 @@ def songs
   @songs
 end
 
+def add_song_by_name(name)
+@songs << name
+end
 
+def song_count
+@songs.count
+
+end
 
 
 end
