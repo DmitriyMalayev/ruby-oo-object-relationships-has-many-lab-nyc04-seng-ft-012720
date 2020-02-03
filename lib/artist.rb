@@ -6,8 +6,8 @@ def initialize(name)
   @name = name
 end
 
-def add_song(song)
-  @songs << song
+def add_song(songs)
+  @songs << songs
 end
 
 def songs
