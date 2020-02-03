@@ -4,7 +4,7 @@ attr_accessor :new, :name
 def initialize(name)
   @name = name
   @@songs = []
-  @@songs << song
+  @@songs << @song
 end
 
 def self.songs(name)
