@@ -7,8 +7,8 @@ def initialize(name)
   @@songs << songs
 end
 
-def self.songs(name)
-  @name
+def self.songs
+  @@songs
 end
 
 def self.songs=(name)
