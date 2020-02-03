@@ -10,10 +10,14 @@ def self.add_song(song)
   @songs << song
 end
 
-def self.songs
+def songs
   @songs
 end
 
+def self.artist_name
+
+
+end
 
 
 
