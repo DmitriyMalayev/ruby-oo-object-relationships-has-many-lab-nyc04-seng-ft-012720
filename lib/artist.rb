@@ -10,7 +10,7 @@ def add_song(song)
   @songs << song
 end
 
-def self.songs
+def songs
   @songs
 end
 
